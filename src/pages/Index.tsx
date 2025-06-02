@@ -74,7 +74,7 @@ const Index = () => {
           <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
             <Input
               type="email"
-              placeholder="type your email"
+              placeholder="Type your email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
